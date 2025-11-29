@@ -1,0 +1,45 @@
+E. Shi's throne
+time limit per test
+2 seconds
+memory limit per test
+64 megabytes
+
+Shi's mansion is almost complete and now he is choosing where to put his Really Spectacular Throne made of Imperial Gold (TOIRE). In order to do that, he asked one of his minions to suggest him m rooms where he could put his TOIRE. In his mansion, there are n rooms, each of which has a level of filthiness si, known by the minion.
+
+The minion is responsible for cleaning the TOIRE so he will to suggest the rooms in a way that cleaning the TOIRE will be easier. Shi will choose the room where he will put the TOIRE randomly between the rooms suggested by the minion.
+
+In the worst case, what will be the level of filthiness of the TOIRE?
+Input
+
+The input starts with two integers n (1 ≤ n ≤ 106) and m (1 ≤ m ≤ n), indicating the number of rooms and the number of suggestions. The line is followed by n lines, containing an integer that is the level of filthiness si (0 ≤ si ≤ 109) of each room.
+Output
+
+Print one integer indicating the level of filthiness of the TOIRE in the worst case.
+Examples
+Input
+
+3 3
+1 2 3
+
+Output
+
+3
+
+Input
+
+3 2
+1 15 7
+
+Output
+
+7
+
+Input
+
+5 3
+5 4 2 3 1
+
+Output
+
+3
+
