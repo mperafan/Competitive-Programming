@@ -1,0 +1,48 @@
+Given alphabet A and a list of words, sort the list according to the lexicographic order induced by A.
+Input
+
+The first line of input contains t, the number of tests.
+
+Each test begins with a line with alphabet A, which consists of lowercase letters arbitrary chosen from the Latin alphabet. The next line contains an integer n<100 000 - the number of words. The subsequent n contain one word each, which is not longer than 1 000 letters. Additionally, you can assume that the total number of letters in all words of each test does not exceed 4*106.
+
+There is an empty line after each test.
+Output
+
+For each test output the sorted list of words in successive lines.
+Score
+
+The score is equal to the length of the source code of your program.
+Example
+
+Input:
+
+2
+re
+3
+ere
+rer
+re
+
+balujemy
+5
+bel
+luba
+lej
+bal
+leje
+
+
+
+Output:
+
+re
+rer
+ere
+
+bal
+bel
+luba
+lej
+leje
+
+Warning: large Input/Output data, be careful with certain languages 
